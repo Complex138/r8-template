@@ -1,0 +1,10 @@
+php_value date.timezone "Asia/Irkutsk"
+# Включаем Mod_Rewrite
+RewriteEngine on
+RewriteBase /
+
+# Запрещаем просмотр директорий
+Options -Indexes
+
+# Перенаправляем все запросы в index.php
+RewriteRule .*? index.php
