@@ -1,13 +1,13 @@
 <!-- BEGIN WIDGET FIND PARTS -->
 <div class="blur-block">
-	<div class="">
+	<div class="container">
 		<div class="card">
 			<div class="card-body">
 				<div class="row" style="padding: 10px 30px;">
 					<div class="col-4">
 						<form>
 						  <div class="form-group">
-							<label for="exampleInputEmail1"><h3 class="fw-700 fs-3"><i class="fas fa-car-side text-primary" style="position: absolute;left: -25px;"></i> Подбор по авто</h3></label>
+							<label for="exampleInputEmail1"><h3 class="fw-700 fs-25"><i class="text-primary" style="position: absolute;left: -25px;background: url(../img/icon/car.png) no-repeat;background-size: cover;width: 35px;height: 35px;"></i> Подбор по авто</h3></label>
 							<select class="form-control">
 								<option selected>Выберите марку авто</option>
 								<option>Тазики</option>
@@ -36,7 +36,7 @@
 					<div class="col-4" style="border-left: 1px solid black;">
 						<form>
 						  <div class="form-group">
-							<label for="exampleInputEmail1"><h3 class="fw-700 fs-3"><i class="fas fa-cogs text-primary"></i> Тип запчастей</h3></label>
+							<label for="exampleInputEmail1"><h3 class="fw-700 fs-25"><i class="fas fa-cogs text-primary"></i> Тип запчастей</h3></label>
 							<div class="input-group" style="margin: 0 40px;padding: 0 40px 0 0;">
 								<select class="form-control">
 									<option>1</option>
@@ -50,7 +50,7 @@
 					<div class="col-4">
 						<form>
 						  <div class="form-group">
-							<label for="exampleInputEmail1"><h3 class="fw-700 fs-3"><i class="fas fa-pencil-ruler text-primary"></i> Размеры (в мм)</h3></label>
+							<label for="exampleInputEmail1"><h3 class="fw-700 fs-25" style="position: relative;left: 40px;"><i class="text-primary" style="position: absolute;left: -45px;background: url(../img/icon/key.png) no-repeat;background-size: cover;width: 35px;height: 35px;"></i> Размеры (в мм)</h3></label>
 							<div class="input-group" style="margin-left: 25px;">
 								<div class="col-6 mb-3">
 									<input type="text" class="form-control" placeholder="Наруж.диам">
@@ -82,8 +82,8 @@
 			</div>
 		</div>
 		<div class="block-center">
-			<button type="button" class="btn btn-primary">Найти</button>
-			<button type="button" class="btn btn-muted">Очистить</button>
+			<button type="button" class="btn btn-primary">НАЙТИ</button>
+			<button type="button" class="btn btn-muted">ОЧИСТИТЬ</button>
 		</div>
 	</div>
 </div>

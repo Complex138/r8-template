@@ -100,7 +100,7 @@
 					$(".widget-novelty-catalog .card-body").height(mh);
 
 					// Расчитываем позиционирование стрелок согласно высоте блоков.
-					let hg = mh/4;
+					let hg = mh/1.6;
 					$(".widget-novelty-catalog .owl-next").attr('style', "top:" + hg + "px!important;");
 					$(".widget-novelty-catalog .owl-prev").attr('style', "top:" + hg + "px!important;");
 				})
