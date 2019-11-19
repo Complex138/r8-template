@@ -1205,6 +1205,18 @@ order: 3; /* Выводим третьим */
   color: rgba(0,0,0,.4);
 }
 
+.blur-block select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    background: url(http://www.free-icons-download.net/images/small-down-arrow-icon-15593.png);
+    background-repeat: no-repeat;
+    background-size: 16px 17px;
+    background-position: right;
+    background-position-y: center;
+    background-origin: content-box;
+}
+
 
 .w-0{width:0px;}
 .w-1{width:1px;}
