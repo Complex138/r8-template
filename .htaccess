@@ -6,5 +6,9 @@ RewriteBase /
 # Запрещаем просмотр директорий
 Options -Indexes
 
+# Если файл или директория существует, обрабатываем.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
 # Перенаправляем все запросы в index.php
 RewriteRule .*? index.php
