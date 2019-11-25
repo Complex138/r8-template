@@ -1,51 +1,44 @@
-<div class="container m-auto row p-0 pt-3">
-
-	<div class="col-3 py-4">
-		<h3 class="pb-4 mb-2 fs-20 fw-700">КАТАЛОГ</h3>
-		<ul>
-			<li class="pb-2">Резинотехнические изделия</li>
-			<li class="pb-2">Тяги стабилизатор</li>
-			<li class="pb-2">Шаровые опоры</li>
-			<li class="pb-2">Тяги рулевые</li>
-			<li class="pb-2">Пыльники</li>
-		</ul>
-	</div>
-	
-	<div class="col-3 py-4 pl-5">
-		<h3 class="pb-4 mb-2 fs-20 fw-700">МЕНЮ</h3>
-		<ul>
-			<li class="pb-2">О компании</li>
-			<li class="pb-2">Партнерам</li>
-			<li class="pb-2">Доставка</li>
-			<li class="pb-2">Оплата</li>
-			<li class="pb-2">Контакты</li>
-		</ul>
-	</div>
-	
-	<div class="col-3 py-4">
-		<h3 class="pb-4 mb-2 fs-20 fw-700">КОНТАКТЫ</h3>
-		<p class="pb-2">
-			<span>Иркутск ул.Кожзаводская 6</span>
-			<br>
-			<span>Тел: +7 (999) 999-99-99</span>
-		</p>
-		<p class="pb-2">
-			<span>Новосибирск ул. Владимирская 11А, к.3</span>
-			<br>
-			<span>Тел: +7 (999) 999-99-99</span>
-		</p>
-	</div>
-	
-	<div class="col-3 py-4">
-		<div class="footer-logo">
-			<img src="/img/logo-dark.png">
-		</div>
-		<div class="copyright pt-5 fs-12">
-			<div>&copy; <?=date('Y')?> официальный сайт компании R8</div>
-			<div><a href="#">Политика конфиденциальности</a></div>
-			
-		</div>
-	</div>
-	
+<div class="footer text-white h-100">
+  <div class="container">
+    <div class="row py-5">
+    
+      <div class="col-md-12 col-lg-3">
+        <h3 class="fs-20 fw-700 mb-4 mt-2">КАТАЛОГ</h3>
+        <ol class="fs-17">
+          <li><a href="#">Резинотехнические изделия</a></li>
+          <li><a href="#">Тяги стабилизатора</a></li>
+          <li><a href="#" class="link-active">Шаровые опоры</a></li>
+          <li><a href="#">Тяги руливые</a></li>
+          <li><a href="#">Пыльники</a></li>
+        </ol>
+      </div>
+      
+      <div class="col-md-12 col-lg-3">
+        <h3 class="fs-20 fw-700 mb-4 mt-2">МЕНЮ</h3>
+        <ol class="fs-17">
+          <li><a href="#">О компании</a></li>
+          <li><a href="#">Партнерам</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Оплата</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ol>
+      </div>
+      
+      <div class="col-md-12 col-lg-3">
+        <h3 class="fs-20 fw-700 mb-4 mt-2">КОНТАКТЫ</h3>
+        <p class="fs-16">Иркутск ул. Кожзаводская 6 <br>Тел.: 8 (3952) 484-383</p>
+        <p class="fs-16">Новосибирск, ул. Владимирская, 11А, к. 3 <br>Тел.: 8 (383) 246-15-88</p>
+      </div>
+      
+      <div class="col-md-12 col-lg-3 mt-4">
+        <div class="logo h-118">
+          <img src="/img/r8-logo.png" class="mr-4">
+          <img src="/img/galex-logo.png" class="pt-2">
+          <p class="fs-13 mt-4 mb-0">&copy; <?=date('Y')?>г. Официальны сайт компании R8</p>
+          <p class="fs-13"><a href="#" class="a-police">Политика конфидициальности</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 </div>
-

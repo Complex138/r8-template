@@ -1,75 +1,53 @@
-<div class="top-header">
-	<!-- BEGIN LOGO -->
-		<a href="/" class="logo">
-			<img src="img/logo-white.png" title="logo r8"></img>
-		</a>
-	<!-- END LOGO -->
-	
-	<!-- BEGIN SEARCH -->
-		<div class="search">
-			<form action="/search">
-				<div class="input-group">
-					<input type="text" class="form-control" placeholder="Поиск по всем свойствам" aria-describedby="basic-addon2">
-					<div class="input-group-append">
-						<button class="input-group-text" id="basic-addon2"><i class="fas fa-search text-primary"></i></button>
-					</div>
-				</div>
-			</form>
-		</div>
-	<!-- END SEARCH -->
-	
-	<!-- BEGIN CITY -->
-		<div class="city">
-			<div class="row">
-				<div class="col-6">
-					<a href="#" class="hover-primary active-link">Иркутск</a>
-				</div>
-				<div class="col-6">
-					<a href="#" class="hover-primary">Новосибирск</a>
-				</div>
-				<div class="col-6">
-					<a href="#" class="hover-primary">Москва</a>
-				</div>
-				<div class="col-6">
-					<a href="#" class="hover-primary">Красноярск</a>
-				</div>
-			</div>
-		</div>
-	<!-- END CITY -->
-	
-	<!-- BEGIN PHONE -->
-		<div class="phone">
-			<p class="number">8 (3952) 484-383</p>
-		</div>
-	<!-- END PHONE -->
-	
-	<!-- BEGIN BASKET -->
-		<a href="/basket" class="basket">
-			<div class="cart bg-primary"><div class="cart-count"><span>2</span></div></div>
-			
-		</a>
-	<!-- END BASKET -->
-
+<div class="header">
+  <div class="container">
+      <div class="row">
+      
+        <div class="col">
+          <!--Начало Логотипа -->
+          <a href="/">
+            <div class="logo align-items-center d-inline-flex h-118">
+              <img src="/img/r8-logo.png" class="mr-4">
+              <img src="/img/galex-logo.png" class="pt-2">
+            </div>
+          </a>
+          <!--конец Логотипа -->
+        </div>
+        
+        <div class="col d-sm-none d-md-block d-none d-lg-block d-xl-block">
+          <!--Начало формы поиска -->
+          <div class="search align-items-center d-inline-flex h-118">
+            <div class="input-group d-contents">
+              <input type="text" class="seartch-input form-control mr-4" placeholder="Поиск по всем параметрам" aria-describedby="basic-addon2">
+              <div class="input-group-append icon-class-search d-flex align-items-center pr-2 pl-2" style="height:50px;position: absolute;right: 4px;">
+                <div id="basic-addon2"><img src="/img/icons/glass.png"></div>
+              </div>
+            </div>
+          </div>
+          <!--Конец формы поиска -->
+        </div>
+        
+        <div class="col align-items-center d-inline-flex d-none d-sm-none d-md-none d-lg-block d-xl-block">
+          <!--Начало списка городов -->
+          <div class="row fs-17 fw-700 list-sity wd-200 mr-3">
+            <div class="col-6"><a href="#" class="link-active">Иркутск</a></div>
+            <div class="col-6"><a href="#">Новосибирск</a></div>
+            <div class="col-6"><a href="#">Москва</a></div>
+            <div class="col-6"><a href="#">Красноярск</a></div>
+          </div>
+          <!--Конец списка городов -->
+        </div>
+        
+        <div class="col align-items-center d-inline-flex d-none d-sm-none d-lg-none d-md-none d-xl-block">
+          <!--Начало номера телефона -->
+            <div class="phone phone wd-200 fs-24 fw-700">8 (3952) 484-383</div>
+          <!--Конец номера телефона -->
+        </div>
+        
+        <div class="col align-items-center d-inline-flex justify-content-end">
+          <a href="#"><img src="/img/icons/basket.png"></a>
+          <div class="basket-count fs-15 fw-700 text-white">2</div>
+        </div>
+        
+      </div>
+  </div>
 </div>
-
-<!--BEGIN TOP MENU-->
-	<div class="main-menu">
-		<nav class="menu">
-			<ul>
-				<li><a href="/catalog">Каталог</a></li>
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Партнерам</a></li>
-				<li><a href="#">Контакты</a></li>
-			</ul>
-			<div class="user">
-				<div class="avatar">
-					<i class="fas fa-user"></i>
-				</div>
-				<div class="user-name">
-					<p>Администратор<p>
-					<p>группа: розничные покупки<p>
-				</div>
-			</div>
-		</nav>
-	</div>
-<!--END TOP MENU-->

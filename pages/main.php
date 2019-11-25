@@ -1,82 +1,99 @@
-<?include('widget_find_car.php');?>
-<div class="container p-0">
-	<!-- BEGIN WIDGET CATALOG  -->
-	<div class="widget-novelty-catalog my-4">
-		<div class="title"><h2 class="fw-700">Новинки каталога</h2></div>
-		<div class="owl-carousel owl-theme">
-			<!-- BEGIN Товар №1 -->
-			<div class="border">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="/img/product/sailentblock.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text" style="height: calc(100% - 120px);">Сайлент блок задний цапфы плавающий.</p>
-						<h5><p class="card-text text-primary fs-16 fw-700">Артикул: 42210-14010 </p></h5>
-						<p class="card-text fw-700">1920 руб./шт.</p>
-						
-					</div>
-				</div>
-			</div>
-			<!-- END Товар №1 -->
-			
-			<!-- BEGIN Товар №2 -->
-			<div class="border">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="/img/product/sailentblock.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"  style="height: calc(100% - 120px);">Сайлент блок задний цапфы плавающий.</p>
-						<h5><p class="card-text text-primary fs-16 fw-700">Артикул: 42210-14010 </p></h5>
-						<p class="card-text fw-700">1920 руб./шт.</p>
-						
-					</div>
-				</div>
-			</div>
-			<!-- END Товар №2 -->
-			
-			<!-- BEGIN Товар №3 -->
-			<div class="border">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="/img/product/sailentblock.png" alt="Card image cap">
-					<div class="sale"><i class="fas fa-comment"></i><span>%</span></div>
-					<div class="card-body">
-						<!-- ВНИМАНИЕ!!!  расчитывание функции calc происходит исходя из события, если есть скидка, то ставим 150x если её нет, то ставим 130px -->
-						<p class="card-text"  style="height: calc(100% - 120px);">Сайлент блок задний цапфы плавающий.</p>
-						<h5><p class="card-text text-primary fs-16 fw-700">Артикул: 42210-14010 </p></h5>
-						<small class="striked up fw-700">2300 руб./шт.</small>
-						<p class="card-text fw-700">1920 руб./шт.</p>
-						
-					</div>
-				</div>
-			</div>
-			<!-- END Товар №3 -->
-			
-			<!-- BEGIN Товар №4 -->
-			<div class="border">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="/img/product/sailentblock.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"  style="height: calc(100% - 120px);">Сайлент блок задний цапфы плавающий.</p>
-						<h5><p class="card-text text-primary fs-16 fw-700">Артикул: 42210-14010 </p></h5>
-						<p class="card-text fw-700">1920 руб./шт.</p>
-						
-					</div>
-				</div>
-			</div>
-			<!-- END Товар №4 -->
-			
-			<!-- BEGIN Товар №5 -->
-			<div class="border">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="/img/product/sailentblock.png" alt="Card image cap">
-					<div class="card-body">
-						<p class="card-text"  style="height: calc(100% - 120px);">Сайлент блок задний цапфы плавающий.</p>
-						<h5><p class="card-text text-primary fs-16 fw-700">Артикул: 42210-14010 </p></h5>
-						<p class="card-text fw-700">1920 руб./шт.</p>
-						
-					</div>
-				</div>
-			</div>
-			<!-- END Товар №5 -->
-		</div>
-	</div>
-	<!-- END WIDGET CATALOG  -->
+<div class="widget-find-car w-100 p-5">
+  <div class="container">
+  
+    <div class="card">
+      <div class="card-body pt-4 mt-3">
+      
+        <form action="" method="get">
+          <div class="row">
+            <div class="col-lg-4 ml-5 bb-right">
+              <div class="form-group">
+                <div class="icon-car"></div>
+                <label for="exampleFormControlSelect1" class="fs-24 fw-700">Подбор по авто</label>
+                <select class="form-control fs-17 text-black height-50" id="exampleFormControlSelect1">
+                  <option>Volkswagen</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <select class="form-control fs-17 text-black height-50" id="exampleFormControlSelect1">
+                  <option>2011 / GTA08</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <select class="form-control fs-17 text-black height-50" id="exampleFormControlSelect1">
+                  <option>Passat</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-7 ml-2 pl-4 pr-0">
+              
+              <div class="col-sm-12">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12">
+                    <div class="form-group pr-3">
+                      <div class="icon-settings"></div>
+                      <label for="exampleFormControlSelect1" class="fs-24 fw-700">Тип запчастей</label>
+                      <select class="form-control fs-17 text-black height-50" id="exampleFormControlSelect1">
+                        <option>Резинотехнические изделия</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                  </div>
+                
+                  <div class="col-lg-6 col-md-12">
+                    <div class="icon-keySize"></div>
+                    <h2 class="fs-24 fw-700">Размеры (в мм.)</h2>
+                    <div class="row">
+                      <div class="col-sm-6 mb-3">
+                        <input class="form-control fs-17 text-black height-50" type="text" placeholder="Наруж. диам.">
+                      </div>
+                      <div class="col-sm-6 mb-3">
+                        <input class="form-control fs-17 text-black height-50" type="text" placeholder="Вн. диам.">
+                      </div>
+                      <div class="col-sm-6 mb-3">
+                        <input class="form-control fs-17 text-black height-50" type="text" placeholder="Высота">
+                      </div>
+                      <div class="col-sm-6 mb-3">
+                        <input class="form-control fs-17 text-black height-50" type="text" placeholder="Длина вн. втул.">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <div class="icon-glass-lg"></div>
+                  <label for="exampleFormControlSelect1" class="fs-24 fw-700"></label>
+                  <input type="text" value="Введите артикул или ОЕМ номер" class="form-control fs-17 text-black height-50" id="exampleFormControlSelect1">
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        
+      </div>
+    </div>
+    
+    <div class="d-flex justify-content-center mt-3">
+      <button type="button" class="btn btn-primary fs-17 fw-700 text-white wd-161 height-49 mr-4">НАЙТИ</button>
+      <button type="button" class="btn btn-secondary fs-17 fw-700 text-white wd-190 height-49" style="background: #7f7f7f;">ОЧИСТИТЬ</button>
+    </div>
+    
+  </div>
 </div>
