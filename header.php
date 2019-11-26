@@ -6,8 +6,8 @@
           <!--Начало Логотипа -->
           <a href="/">
             <div class="logo align-items-center d-inline-flex h-118">
-              <img src="/img/r8-logo.png" class="mr-4">
-              <img src="/img/galex-logo.png" class="pt-2">
+              <img src="/img/r8-logo.png" class="mr-4 sm-logo-r8">
+              <img src="/img/galex-logo.png" class="pt-2 sm-logo-galex">
             </div>
           </a>
           <!--конец Логотипа -->

@@ -152,6 +152,15 @@ a {
 .text-black, .text-black::placeholder{
   color: #000!important;
 }
+.text-green{
+  color: #326000;
+}
+.underline-green{
+  border-bottom: 2px solid #326000;
+}
+.underline-primary{
+  border-bottom: 2px solid #e63f24;
+}
 .link-active{
   color: #e63f24!important;
 }
@@ -207,12 +216,24 @@ a {
 }
 
 @media (max-width: 580px){
-  .d-none {
-    display: none!important;
-  }
-  .txt-cntr{
-	  text-align: center;
-  }
+	.d-none {
+		display: none!important;
+	}
+	.txt-cntr{
+		text-align: center;
+	}
+	.page-h2{
+		text-align: center;
+	}
+	.sm-txt-center{
+		text-align:center;
+	}
+	.sm-margin-0{
+		margin:0px;
+	}
+	.sm-padding-0{
+		padding:0px;
+	}
 }
 
 .footer{
@@ -250,15 +271,15 @@ a {
 
 
 .widget-find-car select{
-  -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    background: url("/img/icons/arrow-bottom-black.png");
-    background-repeat: no-repeat;
-    background-size: 11px 6px;
-    background-position: right;
-    background-position-y: center;
-    background-origin: content-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	background: url("/img/icons/arrow-bottom-black.png");
+	background-repeat: no-repeat;
+	background-size: 11px 6px;
+	background-position: right;
+	background-position-y: center;
+	background-origin: content-box;
 }
 
 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
@@ -295,6 +316,153 @@ a {
     margin-top: 5px;
 }
 
+@media (max-width: 680px){
+	.sm-logo-r8{
+		width: 50px;
+	}
+	.sm-logo-galex{
+		width: 80px;
+	}
+	
+	.widget-catalog .owl-next {
+		position: absolute!important;
+		right: -0px!important;
+		font-size: 120px!important;
+		top: 5px!important;
+	}
+	.widget-catalog .owl-prev {
+		position: absolute!important;
+		left: -0px!important;
+		font-size: 120px!important;
+		top: 0px!important;
+	}
+}
+@media (min-width: 700px) and (max-width: 1150px){
+	.widget-catalog .owl-next {
+		position: absolute!important;
+		right: -10px!important;
+		font-size: 120px!important;
+		top: 5px!important;
+	}
+	.widget-catalog .owl-prev {
+		position: absolute!important;
+		left: -10px!important;
+		font-size: 120px!important;
+		top: 0px!important;
+	}
+}
+
+@media (max-width: 450px){
+	.widget-catalog .owl-dots{
+		display: none;
+	}
+	.txt-cntr{
+		font-size: 30px!important;
+	}
+	.page-h2{
+		font-size: 20px!important;
+	}
+}
+
+.category-breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    padding-right: 0rem;
+    color: transparent;
+    content: "";
+    background: url(/img/icons/breadcrumb-arrow.png);
+    width: 25px;
+    height: 15px;
+}
+.transparent{
+	background: transparent!important;
+}
+
+.list-style-none{
+	list-style: none;
+}
+
+.category-page-bread .breadcrumb-item::after {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #fff;
+    content: "";
+    position: relative;
+    right: -20px;
+    background: url(/img/icons/breadcrumb-arrow-white.png) no-repeat;
+    width: 6px;
+    height: 10px;
+}
+.category-page-bread .breadcrumb-item {
+    background: black;
+    padding: 10px 21px 10px 8px;
+    margin: 0 20px 0 0;
+    border-radius: 5px;
+}
+.category-page-bread .breadcrumb-item a{
+    color: #fff;
+}
+.category-page-bread .breadcrumb {
+    padding: 30px 0 10px 0;
+    background-color: #ffffff;
+}
+.category-page-bread .breadcrumb-item+.breadcrumb-item::before{
+	    content: "";
+}
+
+.list-tovarov{
+	float: right;
+	position: relative;
+	width: 250px;
+}
+
+.list-tovarov .form-group {
+    position: relative;
+    width: calc(100% + 60px);
+    right: 60px;
+}
+
+.list-tovarov .SumoSelect, form {
+    width: 100%;
+}
+
+.list-tovarov .SumoSelect span{
+	color: #fff;
+	font-weight: 700;
+}
+
+.list-tovarov .SumoSelect > .CaptionCont{
+	background-color: #e63f24;
+	border-radius: 8px;
+}
+
+.list-tovarov .SumoSelect > .CaptionCont {
+    position: relative;
+    border: 1px solid #e63f24;
+    min-height: 14px;
+    margin: 0;
+    height: 41px;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 991px){
+	.list-tovarov {
+		float: right;
+		position: relative;
+		width: 96%;
+	}
+}
+
+@media (min-width: 582px) and (max-width: 991px){
+	.list-tovarov{
+		width: 97%!important;
+	}
+	.sm-p-0{
+		padding: 0px;
+	}
+}
 
 
 

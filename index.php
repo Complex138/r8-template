@@ -12,8 +12,14 @@
 	<link rel="stylesheet" href="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/assets/owl.carousel.min.css">
 	<link rel="stylesheet" href="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/assets/owl.theme.default.min.css">
 	
+	<!-- SumoSelect -->
+	<link href="/vendor/sumoselect/sumoselect.css" rel="stylesheet" />
+	
+	<!-- StackTable -->
+	<link href="/vendor/stacktable/stacktable.css" rel="stylesheet" />
+	
     <!-- Worker style -->
-		<link rel="stylesheet" href="css/worker.css?<?=time()?>">
+	<link rel="stylesheet" href="/css/worker.css?<?=time()?>">
     
     <title>Hello, world!</title>
   </head>
@@ -41,6 +47,12 @@
 	
 	<!-- OWL Carusel -->
 	<script src="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/owl.carousel.min.js"></script>
+	
+	<!-- SumoSelect -->
+	<script src="/vendor/sumoselect/jquery.sumoselect.js"></script>
+	
+	<!-- StackTable -->
+	<script src='/vendor/stacktable/stacktable.js'></script>
 	
 	<script>
 		$(function() {
@@ -85,10 +97,19 @@
 
 			// Расчитываем позиционирование стрелок согласно высоте блоков.
 			let hg = mh/1.8;
-			$(".widget-catalog .owl-next").attr('style', "top:" + hg + "px!important; right: -85px!important;");
-			$(".widget-catalog .owl-prev").attr('style', "top:" + hg + "px!important; left: -85px!important;");
+			$(".widget-catalog .owl-next").attr('style', "top:" + hg + "px!important;");
+			$(".widget-catalog .owl-prev").attr('style', "top:" + hg + "px!important;");
 			$('.owl-prev span').html('<img src="/img/icons/arrow-left.png">');
 			$('.owl-next span').html('<img src="/img/icons/arrow-right.png">');
+		})
+		
+		$(function(){
+			// Select list checkbox
+			$('.sumoselect').SumoSelect();
+		})
+		
+		$(function(){
+			$('.tbl-list').stacktable();
 		})
 	</script>
 	
