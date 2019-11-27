@@ -211,7 +211,7 @@
 	</div>
 	
 	<div class="row w-100 my-4 mobile-m-0 mobile-my-10">
-      <div class="col-md-4 col-sm-12 sm-txt-center p-0">
+      <div class="sm-txt-center p-0">
         <h3 class="fs-24 fw-700 page-h2">Информация о доставке:</h3>
       </div>
     </div>
@@ -250,7 +250,7 @@
 	</div>
 	
 	<div class="row w-100 my-4 mobile-m-0 mobile-my-10">
-      <div class="col-md-4 col-sm-12 sm-txt-center p-0">
+      <div class="sm-txt-center p-0">
         <h3 class="fs-24 fw-700 page-h2">Информация об оплате</h3>
       </div>
     </div>
@@ -273,24 +273,24 @@
 	  </label>
 	</div>
 	
-	<div class="row my-4 d-block sm-txt-center">
+	<div class="row my-4 d-block sm-txt-center mobile-m-0 mobile-my-10">
 		<h4 class="fs-17 fw-700 mobile-fs-13">Нет времени или возможности заполнить форму?</h4>
 		<h5 class="fs-17 mobile-fs-13">Отправьте все данные на нашу почту: <a href="mailto:sale@r8-parts.ru">sale@r8-parts.ru</a></h5>
 	</div>
     
-	<div class="row w-100 mt-5 mb-3">
-      <div class="col-md-4 col-sm-12 sm-txt-center p-0">
+	<div class="row w-100 mt-5 mb-3 mobile-m-0 mobile-my-10">
+      <div class="sm-txt-center p-0">
         <h3 class="fs-24 fw-700 page-h2">Комментарии к заказу:</h3>
       </div>
     </div>
 	
-	<div class="row mobile-mx-10">
+	<div class="row mobile-mx-10 mobile-m-0 mobile-my-10">
 		<div class="form-group wd-609 mobile-wd-100">
 			<textarea class="form-control wd-609 mobile-wd-100" id="exampleFormControlTextarea1" rows="3"></textarea>
 		</div>
 	</div>
 	
-	<div class="row">
+	<div class="row mobile-m-0 mobile-my-10">
 		<div class="col-sm-12 p-0 sm-txt-center mb-5 mt-4">
 			<div class="category-prod">
 				<h1 class="fs-36 fw-700 txt-cntr">Итог к оплате</h1>
@@ -298,13 +298,13 @@
 		</div>
 	</div>
 	
-	<div class="result row mobile-d-flex mobile-content-center">
-		<div class="card card mobile-wd-100 mobile-mx-10">
+	<div class="result row mobile-d-flex mobile-content-center mobile-m-0 mobile-my-10">
+		<div class="card card mobile-wd-100">
 			<div class="card-body">
 				<ul class="ingredients wd-517 fs-17 mobile-fs-13 fw-700 mobile-wd-100">
-					<li>Товар<span class="value">4568 рую</span></li>
-					<li>Доставка<span class="value">2323 руб.</span></li>
-					<li>Итог к оплате<span class="value">7689 руб.</span></li>
+					<li class="nowrap">Товар<span class="value">4568 рую</span></li>
+					<li class="nowrap">Доставка<span class="value">2323 руб.</span></li>
+					<li class="nowrap">Итог к оплате<span class="value">7689 руб.</span></li>
 				</ul>
 			</div>
 		</div>
