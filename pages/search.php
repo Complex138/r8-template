@@ -1,64 +1,9 @@
+<?php include('widgets/find_car.php');?>
 <div class="container">
 	<div class="row">
-	
-		<div class="category-breadcrumb my-4">
-			<nav aria-label="breadcrumb">
-				<ol class="breadcrumb transparent">
-					<li class="breadcrumb-item fs-13 fw-700 list-sity"><a href="/">ГЛАВНАЯ</a></li>
-					<li class="breadcrumb-item active fs-13 text-black fw-600" aria-current="page">Категории товаров</li>
-				</ol>
-			</nav>
-		</div>
-		
-		<div class="col-sm-12 p-0 sm-txt-center">
-			<div class="category-prod">
-				<h1 class="fs-36 fw-700 txt-cntr">Категории таваров</h1>
-				<h3 class="fs-20 fw-700 mb-5 mt-4 page-h2">Выберите необходимую категорию:</h3>
-			</div>
-			
-			<div class="row text-black fs-17 fw-600 sm-margin-0">
-				<div class="col-md-12 col-lg-4">
-					<ol class="list-style-none p-0 m-0">
-						<li class="list-sity"><a href="#">Сайлентблоки</a></li>
-						<li class="list-sity"><a href="#">Гофры глушителя</a></li>
-						<li class="list-sity"><a href="#">Клипсы</a></li>
-						<li class="list-sity"><a href="#">Кольца глушителя</a></li>
-						<li class="list-sity"><a href="#" class="link-active">Наконечники катушек зажигания</a></li>
-						<li class="list-sity"><a href="#">Проставки</a></li>
-						<li class="list-sity"><a href="#">Щетки стеклоочистителя</a></li>
-						<li class="list-sity"><a href="#">Прокладка клапана</a></li>
-					</ol>
-				</div>
-				
-				<div class="col-md-12 col-lg-4">
-					<ol class="list-style-none p-0 m-0">
-						<li class="list-sity"><a href="#">Втулки рулевой рейки</a></li>
-						<li class="list-sity"><a href="#">Втулки стабилизатора</a></li>
-						<li class="list-sity"><a href="#">Крепления глушителя</a></li>
-						<li class="list-sity"><a href="#">Линки стабилизатора, втулки</a></li>
-						<li class="list-sity"><a href="#">Опоры амортизатора</a></li>
-						<li class="list-sity"><a href="#">Отбойники</a></li>
-						<li class="list-sity"><a href="#">Подушки ДВС, картриджи</a></li>
-						<li class="list-sity"><a href="#">Подшипники подвесные</a></li>
-					</ol>
-				</div>
-				
-				<div class="col-md-12 col-lg-4">
-					<ol class="list-style-none p-0 m-0">
-						<li class="list-sity"><a href="#">Подушки редуктора</a></li>
-						<li class="list-sity"><a href="#">Пыльники</a></li>
-						<li class="list-sity"><a href="#">Ручаги</a></li>
-						<li class="list-sity"><a href="#">Тяги продольные, поперечные</a></li>
-						<li class="list-sity"><a href="#">тяги рулевые, наконечники</a></li>
-						<li class="list-sity"><a href="#">Шровые опоры</a></li>
-						<li class="list-sity"><a href="#">Эксцентрики</a></li>
-					</ol>
-				</div>
-			</div>
-		</div>
 		
 		<div class="category-page-bread my-4 w-100">
-			<h1 class="fs-36 fw-700 txt-cntr my-5">Каталог товаров</h1>
+			<h1 class="fs-36 fw-700 txt-cntr my-5">Результаты поиска</h1>
 			<div class="catalog">
 				<div class="row m-0">
 					<div class="col-md-12 col-lg-8 d-none d-sm-none d-md-block d-lg-block d-xl-block p-0">
@@ -66,41 +11,6 @@
 							<li class="breadcrumb-item fs-12 fw-700 height-41"><a href="#">МАРКА АВТОМОБИЛЯ</a></li>
 							<li class="breadcrumb-item fs-12 fw-700 height-41"><a href="#">МОДЕЛЬ АВТОМОБИЛЯ</a></li>
 							<li class="breadcrumb-item fs-12 fw-700 height-41"><a href="#">ГОД ВЫПУСКА</a></li>
-						</ol>
-					</div>
-					<div class="col-md-12 col-lg-4 sm-p-0">
-						<ol class="list-tovarov">
-							<div class="form-group">
-								<div class="input-group">
-									<form action="#" method="post">
-									   <select class="sumoselect" size="3" multiple name="hero[]">
-										<option value="#">Сайлентблоки</option>
-										<option value="#">Гофры глушителя</option>
-										<option value="#">Клипсы</option>
-										<option value="#">Кольца глушителя</option>
-										<option value="#">Наконечники катушек зажигания</option>
-										<option value="#">Проставка</option>
-										<option value="#">Щетки стеклоочистителя</option>
-										<option value="#">Прокладки клапана</option>
-										<option value="#">Втулки рулевой рейки</option>
-										<option value="#">Втулки стабилизатора</option>
-										<option value="#">Крепления глушителя</option>
-										<option value="#">Линки стабилизатора, втулки</option>
-										<option value="#">Опоры амортизатора</option>
-										<option value="#">Отбойники</option>
-										<option value="#">Подушка ДВС, картриджи</option>
-										<option value="#">Подшибники навесные</option>
-										<option value="#">Подушки редуктора</option>
-										<option value="#">Пыльники</option>
-										<option value="#">Рычаги</option>
-										<option value="#">Тяги продольные, поперечные</option>
-										<option value="#">Тяги рулевые, наконечники</option>
-										<option value="#">Шаровые опоры</option>
-										<option value="#">Эксцентрики</option>
-									   </select>
-									</form>
-								</div>
-							  </div>
 						</ol>
 					</div>
 				</div>

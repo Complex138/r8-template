@@ -20,6 +20,8 @@
 	
     <!-- Worker style -->
 	<link rel="stylesheet" href="/css/worker.css?<?=time()?>">
+	
+	<script src="https://kit.fontawesome.com/85e5cfeb90.js" crossorigin="anonymous"></script>
     
     <title>Hello, world!</title>
   </head>

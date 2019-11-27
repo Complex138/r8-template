@@ -19,7 +19,7 @@
             <div class="input-group d-contents">
               <input type="text" class="seartch-input form-control mr-4" placeholder="Поиск по всем параметрам" aria-describedby="basic-addon2">
               <div class="input-group-append icon-class-search d-flex align-items-center pr-2 pl-2" style="height:50px;position: absolute;right: 4px;">
-                <div id="basic-addon2"><img src="/img/icons/glass.png"></div>
+                <div id="basic-addon2"><a href="/search"><img src="/img/icons/glass.png"></a></div>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@
         </div>
         
         <div class="col align-items-center d-inline-flex justify-content-end">
-          <a href="#"><img src="/img/icons/basket.png"></a>
+          <a href="/basket"><img src="/img/icons/basket.png"></a>
           <div class="basket-count fs-15 fw-700 text-white">2</div>
         </div>
         

@@ -7,7 +7,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link fs-17 fw-700" href="#">Каталог <div class="d-inline-flex icon-arrow-bottom-while"></div></a>
+            <a class="nav-link fs-17 fw-700" href="/catalog">Каталог <div class="d-inline-flex icon-arrow-bottom-while"></div></a>
           </li>
           <li class="nav-item">
             <a class="nav-link fs-17 fw-700" href="#">О компании</a>
