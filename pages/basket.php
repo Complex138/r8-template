@@ -17,11 +17,11 @@
 				</div>
 			</div>
 			
-			<div class="row w-100 my-4">
-				<div class="col-md-4 col-sm-12 sm-txt-center">
-					<h3 class="fs-24 fw-700 page-h2">Заказ со склада Иркутск</h3>
+			<div class="row w-100 my-4 mobile-d-block">
+				<div class="text-center">
+					<h3 class="fs-24 fw-700 page-h2  mr-4">Заказ со склада Иркутск</h3>
 				</div>
-				<div class="col-md-6 col-sm-12 list-sity sm-txt-center">
+				<div class="mobile-d-block list-sity text-center">
 					<span class="mr-4 underline-primary-1"><a href="#" class="text-primary">Удалить заказ Иркутск</a></span>
 					<span class="mr-4 underline-primary-1"><a href="#" class="text-primary">Отложить заказ в избранное</a></span>
 				</div>
@@ -75,11 +75,11 @@
 			
 			
 			
-			<div class="row w-100 my-4">
-				<div class="col-md-4 col-sm-12 sm-txt-center">
-					<h3 class="fs-24 fw-700 page-h2">Заказ со склада Новосибирск</h3>
+			<div class="row w-100 my-4 mobile-d-block">
+				<div class="text-center">
+					<h3 class="fs-24 fw-700 page-h2 mr-4">Заказ со склада Новосибирск</h3>
 				</div>
-				<div class="col-md-6 col-sm-12 list-sity sm-txt-center">
+				<div class="mobile-d-block list-sity text-center">
 					<span class="mr-4 underline-primary-1"><a href="#" class="text-primary">Удалить заказ Новосибирск</a></span>
 					<span class="mr-4 underline-primary-1"><a href="#" class="text-primary">Отложить заказ в избранное</a></span>
 				</div>
@@ -170,7 +170,7 @@
 			
 		</div>
     
-		<div class="d-flex my-4 d-flex flex-wrap justify-content-center align-items-center">
+		<div class="row d-flex my-4 d-flex flex-wrap justify-content-center align-items-center tablet-d-block">
 		  <div class="mr-auto p-2 mobile-p-0 mobile-m-0 mobile-my-10">
 			<button type="button" class="btn btn-primary fs-12 fw-700 text-white wd-241 height-40 mobile-wd-100">ОЧИСТИТЬ КОРЗИНУ ПОЛНОСТЬЮ</button>
 		  </div>
