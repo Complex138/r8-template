@@ -170,7 +170,7 @@
 			
 		</div>
     
-		<div class="row d-flex my-4 d-flex flex-wrap justify-content-center align-items-center tablet-d-block">
+		<div class="row d-flex my-4 d-flex mobile-m-0 flex-wrap justify-content-center align-items-center tablet-d-block">
 		  <div class="mr-auto p-2 mobile-p-0 mobile-m-0 mobile-my-10">
 			<button type="button" class="btn btn-primary fs-12 fw-700 text-white wd-241 height-40 mobile-wd-100">ОЧИСТИТЬ КОРЗИНУ ПОЛНОСТЬЮ</button>
 		  </div>
