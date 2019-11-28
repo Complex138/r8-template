@@ -18,6 +18,9 @@
 	<!-- StackTable -->
 	<link href="/vendor/stacktable/stacktable.css" rel="stylesheet" />
 	
+	<!-- Swiper -->
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+	
     <!-- Worker style -->
 	<link rel="stylesheet" href="/css/worker.css?<?=time()?>">
 	
@@ -55,6 +58,10 @@
 	
 	<!-- StackTable -->
 	<script src='/vendor/stacktable/stacktable.js'></script>
+	
+	<!-- Swiper -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script>
+	<script src="/js/swiperConfig.js"></script>
 	
 	<script>
 		$(function() {
